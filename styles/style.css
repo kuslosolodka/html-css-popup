@@ -45,23 +45,23 @@ body {
   grid-template-rows: repeat(3, 1fr);
   margin: 30px 30px 30px 30px;
 }
-a {
+.menu-icon {
   display: block;
   margin: 15px 20px 15px 10px;
   align-items: center;
   text-align: center;
   color: black;
 }
-a:hover {
+.menu-icon:hover {
   box-shadow: 3px 6px 16px 0px rgba(184, 180, 184, 1);
   color: rgb(255, 157, 0);
 }
-a:focus {
+.menu-icon:focus {
   color: rgb(255, 157, 0);
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-img {
+.icon-photo  {
   width: 75px;
   height: 75px;
   object-fit: contain;
@@ -93,13 +93,14 @@ img {
 .hidden-icons {
   display: none;
 }
-p {
+.btn-text {
   margin: 165px;
   color: rgb(104, 102, 102);
   cursor: pointer;
 }
-p:hover{
+.footer:hover{
   color: rgb(255, 157, 0);
+  cursor: pointer;
 }
 .footer {
   margin: 30px 0 -5px 0;
@@ -120,7 +121,7 @@ p:hover{
     border-radius: 10px;
     display: none;
   }
-  a {
+  .menu-icon {
     display: block;
     margin: 0 20px 5px 10px;
     align-items: center;
@@ -136,7 +137,7 @@ p:hover{
     align-items: center;
     border-radius: 2px;
   }
-  p {
+  .btn-text {
     margin: 180px;
     color: rgb(104, 102, 102);
   }
@@ -167,7 +168,7 @@ p:hover{
     grid-template-rows: repeat(3, 1fr);
     margin: 30px 15px 15px 15px;
   }
-  a {
+  .menu-icon {
     display: block;
     margin: 5px 10px 15px 10px;
     align-items: center;
@@ -185,14 +186,14 @@ p:hover{
     border-radius: 2px;
     font-size: large;
   }
-  img {
+  .icon-photo  {
     width: 85px;
     height: 85px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  p {
+  .btn-text {
     margin: 156px;
     color: rgb(104, 102, 102);
   }
@@ -219,7 +220,7 @@ p:hover{
     border-radius: 10px;
     display: none;
   }
-  a {
+  .menu-icon {
     display: block;
     margin: 0 20px 5px 10px;
     align-items: center;
@@ -235,7 +236,7 @@ p:hover{
     align-items: center;
     border-radius: 2px;
   }
-  p {
+  .btn-text {
     margin: 180px;
     color: rgb(104, 102, 102);
   }
@@ -266,7 +267,7 @@ p:hover{
     grid-template-rows: repeat(3, 1fr);
     margin: 30px 15px 15px 15px;
   }
-  a {
+  .menu-icon {
     display: block;
     margin: 15px 10px 15px 10px;
     align-items: center;
@@ -284,14 +285,14 @@ p:hover{
     border-radius: 2px;
     font-size: x-large;
   }
-  img {
+ .icon-photo {
     width: 150px;
     height: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  p {
+  .btn-text {
     margin: 470px;
     color: rgb(104, 102, 102);
     font-size: xx-large;
