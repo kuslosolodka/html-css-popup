@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  list-style:none;
 }
 body {
   overflow: hidden;
@@ -63,6 +64,7 @@ a:focus {
 img {
   width: 75px;
   height: 75px;
+  object-fit: contain;
   display: block;
   margin-left: auto;
   margin-right: auto;
