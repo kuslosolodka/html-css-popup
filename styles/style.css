@@ -84,7 +84,7 @@ body {
 #load-more-btn {
   display: none;
 }
-#load-more-btn:checked ~ .load-more{
+#load-more-btn:checked ~ .load-more {
   display: none;
 }
 #load-more-btn:checked ~ .hidden-icons {
