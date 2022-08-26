@@ -111,12 +111,12 @@ body {
 .footer:hover {
   color: rgb(255, 157, 0);
   cursor: pointer;
-} 
+}
 
 .hidden-icons {
   display: none;
 }
-.hidden-footer{
+.hidden-footer {
   display: none;
 }
 .btn-text {
@@ -323,7 +323,7 @@ body {
     grid-template-rows: repeat(2, 1fr);
     margin: 30px 15px 15px 15px;
   }
-  .footer{
+  .footer {
     font-size: xx-large;
     margin: 0 200px;
   }
